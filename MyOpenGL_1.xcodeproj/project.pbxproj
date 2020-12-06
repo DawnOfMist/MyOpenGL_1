@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		DF7A77F3257CC8C800026217 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A77F2257CC8C800026217 /* AppDelegate.m */; };
-		DF7A77F6257CC8C800026217 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A77F5257CC8C800026217 /* SceneDelegate.m */; };
-		DF7A77F9257CC8C800026217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A77F8257CC8C800026217 /* ViewController.m */; };
 		DF7A77FC257CC8C800026217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7A77FA257CC8C800026217 /* Main.storyboard */; };
 		DF7A77FE257CC8C900026217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7A77FD257CC8C900026217 /* Assets.xcassets */; };
 		DF7A7801257CC8C900026217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7A77FF257CC8C900026217 /* LaunchScreen.storyboard */; };
 		DF7A7804257CC8C900026217 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A7803257CC8C900026217 /* main.m */; };
 		DF7A780E257CC8C900026217 /* MyOpenGL_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A780D257CC8C900026217 /* MyOpenGL_1Tests.m */; };
 		DF7A7819257CC8C900026217 /* MyOpenGL_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A7818257CC8C900026217 /* MyOpenGL_1UITests.m */; };
+		DF7A7831257CF78300026217 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7A7830257CF78300026217 /* ViewController.m */; };
+		DF7A7838257CF93900026217 /* GLRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF7A7836257CF93900026217 /* GLRender.cpp */; };
+		DF7A784A257CFA2500026217 /* GLTriangleRender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF7A7848257CFA2500026217 /* GLTriangleRender.cpp */; };
+		DF7A7853257D0B9D00026217 /* GLTriangleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DF7A7852257D0B9D00026217 /* GLTriangleViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +41,6 @@
 		DF7A77EE257CC8C800026217 /* MyOpenGL_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOpenGL_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7A77F1257CC8C800026217 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF7A77F2257CC8C800026217 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF7A77F4257CC8C800026217 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DF7A77F5257CC8C800026217 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		DF7A77F7257CC8C800026217 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF7A77F8257CC8C800026217 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DF7A77FB257CC8C800026217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF7A77FD257CC8C900026217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF7A7800257CC8C900026217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +52,14 @@
 		DF7A7814257CC8C900026217 /* MyOpenGL_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOpenGL_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7A7818257CC8C900026217 /* MyOpenGL_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOpenGL_1UITests.m; sourceTree = "<group>"; };
 		DF7A781A257CC8C900026217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7A782F257CF78300026217 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF7A7830257CF78300026217 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF7A7836257CF93900026217 /* GLRender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLRender.cpp; sourceTree = "<group>"; };
+		DF7A7837257CF93900026217 /* GLRender.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GLRender.hpp; sourceTree = "<group>"; };
+		DF7A7848257CFA2500026217 /* GLTriangleRender.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLTriangleRender.cpp; sourceTree = "<group>"; };
+		DF7A7849257CFA2500026217 /* GLTriangleRender.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GLTriangleRender.hpp; sourceTree = "<group>"; };
+		DF7A7851257D0B9D00026217 /* GLTriangleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLTriangleViewController.h; sourceTree = "<group>"; };
+		DF7A7852257D0B9D00026217 /* GLTriangleViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GLTriangleViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,13 @@
 		DF7A77F0257CC8C800026217 /* MyOpenGL_1 */ = {
 			isa = PBXGroup;
 			children = (
+				DF7A7835257CF91C00026217 /* Render */,
 				DF7A77F1257CC8C800026217 /* AppDelegate.h */,
 				DF7A77F2257CC8C800026217 /* AppDelegate.m */,
-				DF7A77F4257CC8C800026217 /* SceneDelegate.h */,
-				DF7A77F5257CC8C800026217 /* SceneDelegate.m */,
-				DF7A77F7257CC8C800026217 /* ViewController.h */,
-				DF7A77F8257CC8C800026217 /* ViewController.m */,
+				DF7A782F257CF78300026217 /* ViewController.h */,
+				DF7A7830257CF78300026217 /* ViewController.m */,
+				DF7A7851257D0B9D00026217 /* GLTriangleViewController.h */,
+				DF7A7852257D0B9D00026217 /* GLTriangleViewController.mm */,
 				DF7A77FA257CC8C800026217 /* Main.storyboard */,
 				DF7A77FD257CC8C900026217 /* Assets.xcassets */,
 				DF7A77FF257CC8C900026217 /* LaunchScreen.storyboard */,
@@ -135,6 +142,17 @@
 				DF7A781A257CC8C900026217 /* Info.plist */,
 			);
 			path = MyOpenGL_1UITests;
+			sourceTree = "<group>";
+		};
+		DF7A7835257CF91C00026217 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				DF7A7836257CF93900026217 /* GLRender.cpp */,
+				DF7A7837257CF93900026217 /* GLRender.hpp */,
+				DF7A7848257CFA2500026217 /* GLTriangleRender.cpp */,
+				DF7A7849257CFA2500026217 /* GLTriangleRender.hpp */,
+			);
+			path = Render;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF7A77F9257CC8C800026217 /* ViewController.m in Sources */,
+				DF7A7838257CF93900026217 /* GLRender.cpp in Sources */,
+				DF7A7831257CF78300026217 /* ViewController.m in Sources */,
+				DF7A784A257CFA2500026217 /* GLTriangleRender.cpp in Sources */,
+				DF7A7853257D0B9D00026217 /* GLTriangleViewController.mm in Sources */,
 				DF7A77F3257CC8C800026217 /* AppDelegate.m in Sources */,
 				DF7A7804257CC8C900026217 /* main.m in Sources */,
-				DF7A77F6257CC8C800026217 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					GLES_SILENCE_DEPRECATION,
+					"DEBUG=1",
+				);
 				INFOPLIST_FILE = MyOpenGL_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +483,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = GLES_SILENCE_DEPRECATION;
 				INFOPLIST_FILE = MyOpenGL_1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
